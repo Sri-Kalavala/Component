@@ -7,9 +7,10 @@ public abstract class SecureSecondary implements Secure {
     public void setKey(String key) {
         this.key = key;
     }
-    
+
     @Override
     public String generateHash() {
-        return Integer.toHexString(message.hashCode());
+        // Still need to finish this section
+        return "";
     }
 }
